@@ -1,24 +1,32 @@
 # Posts App
 
-This is a simple JavaScript project that fetches posts from an API.
+This is a simple JavaScript project that fetches posts from the internet and saves them in the browser.
 
-## What It Does
+## Project Files
 
-- Gets posts from JSONPlaceholder
-- Shows the first 5 posts in the console
-- Saves the posts to localStorage in the browser
-- Uses JavaScript modules with import and export
-
-## Files
-
-- `app.js` runs the main app
-- `API.js` gets posts from the API
+- `index.html` opens the app in the browser
+- `api.js` fetches posts from JSONPlaceholder
 - `storage.js` saves posts to localStorage
-- `package.json` tells Node to use ES modules
+- `app.js` connects everything together
 
-## How To Run
+## What The App Does
 
-Run this command in the terminal:
+- Fetches posts from an online API
+- Gets the first 5 posts
+- Shows the posts in the browser console
+- Saves the posts to localStorage
 
-```bash
-node app.js
+## How To Use
+
+1. Open `index.html` in your browser.
+2. Right-click the page and click **Inspect**.
+3. Open the **Console** tab.
+4. View the first 5 posts.
+5. Check localStorage to see the saved posts.
+
+## Technologies Used
+
+- HTML
+- JavaScript
+- ES Modules
+- localStorage
